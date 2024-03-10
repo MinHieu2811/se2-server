@@ -39,7 +39,7 @@ public class Order {
     return orderPayment;
   }
 
-  public Date getOrerDate() {
+  public Date getOrderDate() {
     return date;
   }
 
@@ -64,7 +64,7 @@ public class Order {
     this.orderPayment = payment;
   }
 
-  public void setOrerDate(Date orderDate) {
+  public void setOrderDate(Date orderDate) {
     this.date = orderDate;
   }
 
